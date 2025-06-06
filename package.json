@@ -5,12 +5,12 @@
 	"main": "dist/index.js",
 	"module": "dist/index.mjs",
 	"types": "dist/index.d.ts",
-    "exports": {
-        ".": {
-            "import": "./dist/index.mjs",
-            "require": "./dist/index.js"
-        }
-    },
+	"exports": {
+		".": {
+			"import": "./dist/index.mjs",
+			"require": "./dist/index.js"
+		}
+	},
 	"files": [
 		"dist"
 	],
@@ -29,6 +29,11 @@
 	],
 	"author": "Évelyn Lacerda",
 	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/evelynlacerda/star-trip"
+	},
+	"homepage": "https://startripreact.vercel.app/",
 	"dependencies": {
 		"react": "^19.1.0",
 		"react-dom": "^19.1.0"
