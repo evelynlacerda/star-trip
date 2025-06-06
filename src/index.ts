@@ -1,1 +1,1 @@
-export { default as StarTrip } from "./StarTripComponent";
+export { default as StarTrip } from "./StarfieldComponent";

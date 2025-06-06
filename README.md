@@ -1,17 +1,17 @@
-# 🌌 StarTrip React Lib
+# 🌌 Starfield React Lib
 
-StarTrip is a lightweight and easy-to-use React component that renders a starfield animation background using `canvas`. It simulates a smooth interstellar journey, similar to Star Wars hyperspace effects — ideal for futuristic and immersive UIs.
+Starfield React Lib is a lightweight and easy-to-use React component that renders a starfield animation background using `canvas`. It simulates a smooth interstellar journey, similar to Star Wars hyperspace effects — ideal for futuristic and immersive UIs.
 
-***🔗 [Click here to preview StarTrip Demo](https://startripreact.vercel.app/)***
+***🔗 [Click here to preview StarTrip Demo](https://starfieldreact.vercel.app/)***
 
 ---
 
 ### 🚀 Installation
 
 ```bash
-npm install star-trip
+npm install @helperdev/starfield-react
 # or
-yarn add star-trip
+yarn add @helperdev/starfield-react
 ```
 
 ---
@@ -19,17 +19,17 @@ yarn add star-trip
 ### 💡 Usage
 
 ```tsx
-import { StarTrip } from "star-trip";
+import { Starfield } from "@helperdev/starfield-react";
 
 function App() {
-	return (
-		<>
-			<StarTrip />
-			<header>
-				<h1>StarTrip React Lib</h1>
-			</header>****
-		</>
-	);
+  return (
+	<>
+	  <Starfield />
+	  <header>
+		<h1>Starfield React Lib</h1>
+	  </header>****
+	</>
+  );
 }
 
 export default App;

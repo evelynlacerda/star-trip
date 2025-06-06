@@ -16,7 +16,7 @@ interface StarTripProps {
 	backgroundColor?: string;
 }
 
-const StarTrip = ({
+const Starfield = ({
 	numStars = 300,
 	speed = 0.5,
 	starSize = 1,
@@ -113,4 +113,4 @@ const StarTrip = ({
 	);
 };
 
-export default StarTrip;
+export default Starfield;

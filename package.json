@@ -1,6 +1,6 @@
 {
-	"name": "star-trip",
-	"version": "1.0.0",
+	"name": "@helperdev/starfield-react",
+	"version": "1.0.1",
 	"description": "React component for a 3D starfield animation background.",
 	"main": "dist/index.js",
 	"module": "dist/index.mjs",
@@ -31,9 +31,9 @@
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/evelynlacerda/star-trip"
+		"url": "https://github.com/evelynlacerda/starfield-react"
 	},
-	"homepage": "https://startripreact.vercel.app/",
+	"homepage": "https://starfieldreact.vercel.app/",
 	"dependencies": {
 		"react": "^19.1.0",
 		"react-dom": "^19.1.0"
